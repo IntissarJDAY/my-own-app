@@ -1,0 +1,55 @@
+/* .App .login {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(253, 187, 45, 1) 0%,
+    rgba(34, 193, 195, 1) 100%
+  );
+} */
+.login {
+  position: relative;
+  width: 70%;
+  left: 20%;
+  top: 20%;
+  transform: translate(10%, 0%);
+}
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  background: url("background.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: -9px 13px -23px 13px;
+}
+.lead {
+  color: white;
+}
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
